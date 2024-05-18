@@ -241,7 +241,7 @@ def CheckForUpdates():
         print('Skipping updates...')
         return
 def displayReportHeader():
-    report_heading = 'OPS435 Lab Report - System Information for running '+sys.argv[0]
+    report_heading = 'OPS445 Lab Report - System Information for running '+sys.argv[0]
     print(report_heading)
     print(len(report_heading) * '=')
     print('    User login name:', os.getlogin())
